@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '백백백백',
-  tagline: 'Note',
+  title: 'Baek Note',
+  tagline: '초보 개발자',
   url: 'https://gjanehrm1.github.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -59,22 +59,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '준돌',
         logo: {
-          alt: 'My Site Logo',
+          alt: '뚜들겨 팹니다',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'programming',
             position: 'left',
-            label: 'Tutorial',
+            label: '프로그래밍',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://gjanehrm1.github.io',
+            label: 'Home',
             position: 'right',
           },
         ],
@@ -83,42 +83,46 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '프로그래밍',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'React',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Java Script',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'JAVA',
+                href: 'https://twitter.com/docusaurus',
+              },
+              {
+                label: 'Algorithm',
+                href: 'https://twitter.com/docusaurus',
+              },
+              {
+                label: 'Web Develop',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '끄적끄적',
             items: [
               {
-                label: 'Stack Overflow',
+                label: '일상 이야기',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                href: 'https://github.com/gjanehrm1',
+              }
             ],
           },
         ],
