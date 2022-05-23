@@ -22,8 +22,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Baek Note`}
-      description="준돌이네 노트">
+      title={`준돌이네`}
+      description="개발세발">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
