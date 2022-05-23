@@ -67,7 +67,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'programming',
+            docId: 'programming/programming',
             position: 'left',
             label: '프로그래밍',
           },
@@ -86,22 +86,27 @@ const config = {
             title: '프로그래밍',
             items: [
               {
+                docId: 'programming/react/react',
                 label: 'React',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
+                docId: 'programming/javascript/javascript',
                 label: 'Java Script',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
+                docId: 'programming/java/java',
                 label: 'JAVA',
                 href: 'https://twitter.com/docusaurus',
               },
               {
+                docId: 'programming/algorithm/algorithm',
                 label: 'Algorithm',
                 href: 'https://twitter.com/docusaurus',
               },
               {
+                docId: 'programming/web/web',
                 label: 'Web Develop',
                 href: 'https://twitter.com/docusaurus',
               },
