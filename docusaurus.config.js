@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Baek Note',
+  title: '준돌이네',
   tagline: '초보 개발자',
   url: 'https://gjanehrm1.github.io',
   baseUrl: '/',
@@ -71,7 +71,7 @@ const config = {
             position: 'left',
             label: '프로그래밍',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '끄적끄적', position: 'left'},
           {
             href: 'https://gjanehrm1.github.io',
             label: 'Home',
@@ -131,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 준돌이네, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
