@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '100준돌',
+  title: '백백백백',
   tagline: 'Note',
   url: 'https://gjanehrm1.github.io',
   baseUrl: '/',
