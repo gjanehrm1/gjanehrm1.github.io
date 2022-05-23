@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gjanehrm1.github.io/blog</id>
-    <title>백준형 Blog</title>
+    <title>백백백백 Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gjanehrm1.github.io/blog"/>
-    <subtitle>백준형 Blog</subtitle>
+    <subtitle>백백백백 Blog</subtitle>
     <icon>https://gjanehrm1.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
