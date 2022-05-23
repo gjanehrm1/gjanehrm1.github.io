@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '준돌',
+        title: '준돌이네',
         logo: {
           alt: '뚜들겨 팹니다',
           src: 'img/logo.svg',
