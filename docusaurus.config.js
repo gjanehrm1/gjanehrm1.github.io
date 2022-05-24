@@ -67,6 +67,7 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: '/category/프로그래밍',
             position: 'left',
             label: '프로그래밍',
           },
