@@ -10,22 +10,25 @@ const config = {
   tagline: '초보 개발자',
   url: 'https://gjanehrm1.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   deploymentBranch: "gh-pages", // https://docusaurus.io/ko/docs/api/docusaurus-config#deploymentBranch
-  trailingSlash: false, //https://docusaurus.io/ko/docs/api/docusaurus-config#trailingSlash
+  trailingSlash: true, //https://docusaurus.io/ko/docs/api/docusaurus-config#trailingSlash
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gjanehrm1', // Usually your GitHub org/user name.
   projectName: 'gjanehrm1.github.io', // Usually your repo name.
-
+  plugins: [
+    require.resolve('@docusaurus/plugin-content-docs'),
+    require.resolve("@cmfcmf/docusaurus-search-local")
+  ],
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
   },
   
 
@@ -34,14 +37,16 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // docs: {
+        //   sidebarPath: require.resolve('./sidebars.js'),
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
+        docs: false,
         blog: {
+          routeBasePath : '/',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
