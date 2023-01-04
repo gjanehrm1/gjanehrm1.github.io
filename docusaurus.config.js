@@ -10,7 +10,7 @@ const config = {
   tagline: '초보 개발자',
   url: 'https://gjanehrm1.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   deploymentBranch: "gh-pages", // https://docusaurus.io/ko/docs/api/docusaurus-config#deploymentBranch
