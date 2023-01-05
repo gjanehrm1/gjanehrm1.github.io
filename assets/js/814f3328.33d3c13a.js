@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\uccab\ubc88\uc9f8 \uac8c\uc2dc\ubb3c","permalink":"/2023/01/04/first-blog-post"},{"title":"Welcome","permalink":"/welcome"}]}')}}]);
